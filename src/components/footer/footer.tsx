@@ -8,7 +8,6 @@ const Footer = () => {
   return (
     <footer className="p-4 flex flex-col md:flex-row justify-between items-center relative">
       <div className="flex flex-col items-start">
-        <h3 className="text-lg mb-2">Blog</h3>
         <Image src="/footer_image.png" alt="Blog Logo" className="mb-2" width="400" height="118" />
       </div>
       <div className="flex flex-col gap-14 md:flex-row">
