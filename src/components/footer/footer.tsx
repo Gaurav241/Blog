@@ -11,7 +11,7 @@ const Footer = () => {
         <h3 className="text-lg mb-2">Blog</h3>
         <Image src="/footer_image.png" alt="Blog Logo" className="mb-2" width="400" height="118" />
       </div>
-      <div className="flex flex-col gap-10 md:flex-row">
+      <div className="flex flex-col gap-14 md:flex-row">
         <div className="flex flex-col">
           <h3 className="text-lg mb-2">Socials</h3>
           <div className="flex items-center mb-2">
