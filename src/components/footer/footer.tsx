@@ -1,5 +1,6 @@
 import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { FaSquareXTwitter } from "react-icons/fa6";
+import Image from 'next/image';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -8,7 +9,7 @@ const Footer = () => {
     <footer className="p-4 flex flex-col md:flex-row justify-between items-center relative">
       <div className="flex flex-col items-start">
         <h3 className="text-lg mb-2">Blog</h3>
-        <img src="\favicon.ico" alt="Blog Logo" className="w-16 h-16 mb-2" />
+        <Image src="/footer_image.png" alt="Blog Logo" className="mb-2" width="400" height="118" />
       </div>
       <div className="flex flex-col gap-10 md:flex-row">
         <div className="flex flex-col">
