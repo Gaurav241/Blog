@@ -2,6 +2,7 @@ import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
 
   return (
     <footer className="p-4 flex flex-col md:flex-row justify-between items-center relative">
@@ -36,6 +37,9 @@ const Footer = () => {
           <a href="https://gauravgovinda.vercel.app/projects" className="underline mb-2">Other Projects</a>
           <a href="https://gauravgovinda.vercel.app/#experiences" className="underline mb-2">Past Experience</a>
         </div>
+      </div>
+      <div className="text-gray-500 absolute bottom-0 left-1/2 transform -translate-x-1/2">
+        &copy; {currentYear} Gaurav Govinda
       </div>
     </footer>
   );
