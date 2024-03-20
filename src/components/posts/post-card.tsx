@@ -19,7 +19,7 @@ export default function PostCard({
             src={cover}
             alt="cover image"
             fill
-            style={{ objectFit: 'cover' }}
+            style={{objectFit:"cover"}}
             placeholder="blur"
             blurDataURL={blurUrl}
           />
