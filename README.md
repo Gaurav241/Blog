@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Blog Website with Notion Integration
 
-## Getting Started
+This repository hosts a Next.js-based blog website with content management capabilities powered by Notion. Leveraging the Notion API, users can seamlessly create and manage blog content within the Notion platform, which is then dynamically fetched and displayed on the website.
 
-First, run the development server:
+## Deployed Website
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The website is deployed and accessible at [https://gauravblog.vercel.app/](https://gauravblog.vercel.app/).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: React framework for SSR and routing.
+- **Tailwind CSS**: Utility-first CSS framework.
+- **Notion Client**: Integration with the Notion API.
+- **React Notion X**: Renderer for Notion content.
+- **Axios**: HTTP client for API requests.
+- **React Icons**: Library for customizable icons.
+- **Recoil**: State management library.
+- **Plaiceholder**: Image placeholder generation.
+- **Sharp**: Image processing library.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Contributions
 
-## Learn More
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the [MIT License](LICENSE.txt), granting users the freedom to use, modify, and distribute the software for both commercial and non-commercial purposes while retaining the copyright notice and license terms.
