@@ -38,7 +38,7 @@ const Footer = () => {
           <a href="https://gauravgovinda.vercel.app/#experiences" className="underline mb-2">Past Experience</a>
         </div>
       </div>
-      <div className="text-gray-500 absolute bottom-0 left-1/2 transform -translate-x-1/2">
+      <div className="text-gray-500 md:absolute bottom-0 left-1/2 md:transform md:-translate-x-1/2">
         &copy; {currentYear} Gaurav Govinda
       </div>
     </footer>
