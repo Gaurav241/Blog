@@ -6,6 +6,16 @@ This repository hosts a Next.js-based blog website with content management capab
 
 The website is deployed and accessible at [https://gauravblog.vercel.app/](https://gauravblog.vercel.app/).
 
+## Features
+
+- **Dynamic Content**: Fetches content dynamically from Notion, enabling real-time updates without redeploying.
+- **Browse by Categories:** Users can browse blog posts by categories, enhancing content discoverability.
+- **Related Topic Blogs:** Displays related topic blogs at the end of each blog post, encouraging further exploration.
+- **Table of Contents:** Provides a table of contents beside every post for easy navigation within the content.
+- **Smooth Animations**: Utilizes smooth animations to enhance user experience and engagement.
+- **Dark and Light Mode:** Supports both dark and light modes for improved readability and user preference.
+- **SEO Optimized**: Implemented SEO best practices to ensure better visibility on search engines.
+
 ## Technologies Used
 
 - **Next.js**: React framework for SSR and routing.
@@ -17,6 +27,43 @@ The website is deployed and accessible at [https://gauravblog.vercel.app/](https
 - **Recoil**: State management library.
 - **Plaiceholder**: Image placeholder generation.
 - **Sharp**: Image processing library.
+
+## Installation
+
+### Prerequisites
+
+Before installing, ensure you have the following installed:
+
+- Node.js (preferably the latest stable version)
+- npm package manager (you can use yarn, but this guide assumes you're using npm)
+
+### Steps
+
+1. Clone the repository:
+
+```
+git clone https://github.com/Gaurav241/Blog.git
+```
+
+2. Navigate to the project directory:
+
+```
+cd Blog
+```
+
+3. Install dependencies:
+
+```
+npm install
+```
+
+4. Start the development server:
+
+```
+npm run dev
+```
+
+Open http://localhost:3000 in your browser to view the website.
 
 ## Contributions
 
