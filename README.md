@@ -6,6 +6,29 @@ This repository hosts a Next.js-based blog website with content management capab
 
 The website is deployed and accessible at [https://gauravblog.vercel.app/](https://gauravblog.vercel.app/).
 
+## Screenshots
+
+### UI/UX
+
+| Dark Mode                                                           | Light Mode                                                          |
+|---------------------------------------------------------------------|---------------------------------------------------------------------|
+| ![Dark Home](visuals/ss/Home-dark.png)                              | ![Light Home](visuals/ss/Home-light.png)                            |
+| **Home:** Landing page of the blog website.                         | **Home:** Landing page of the blog website.                         |
+| ![Dark Post 1](visuals/ss/Post-1-dark.png)                          | ![Light Post 1](visuals/ss/Post-1-light.png)                        |
+| **Post 1:** Example blog post with content.                         | **Post 1:** Example blog post with content.                         |
+| ![Dark Post 2](visuals/ss/Post-2-dark.png)                          | ![Light Post 2](visuals/ss/Post-2-light.png)                        |
+| **Post 2:** Another blog post showcasing different content.         | **Post 2:** Another blog post showcasing different content.         |
+| ![Dark Footer](visuals/ss/Footer-dark.png)                          | ![Light Footer](visuals/ss/Footer-light.png)                        |
+| **Footer:** Footer section of the blog website.                     | **Footer:** Footer section of the blog website.                     |
+
+### Notion CMS
+
+#### Home
+![Home](visuals/ss/NotionCMS.png)
+
+#### Blog
+![Blog](visuals/ss/NotionCMS-Blog.png)
+
 ## Features
 
 - **Dynamic Content**: Fetches content dynamically from Notion, enabling real-time updates without redeploying.
