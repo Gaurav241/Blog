@@ -57,13 +57,54 @@ cd Blog
 npm install
 ```
 
-4. Start the development server:
+4. Set up environment variables:
+
+Copy the `.env.example` file to `.env`:
+
+```
+cp .env.example .env
+```
+Then, fill in the environment variables in the `.env` file:
+
+- `NOTION_DATABASE_ID`: Your Notion database ID.
+- `NOTION_AUTH_TOKEN`: Your Notion authentication token.
+- `API_SECRET`: Choose any secure password for route handler authentication.
+- `SITE_URL`: The URL of your website.
+
+#### For Development:
+
+Set `SITE_URL` to `http://localhost:3000` during development.
+
+#### For Production:
+
+Set `SITE_URL` to your production website URL. Ensure it starts with `https://` for secure connections.
+
+5. Setting Up Notion Integration
+
+To integrate your Notion content with this blog website, follow these steps:
+
+I. **Duplicate Notion Blog Template**: Find and duplicate the blog template you want to use in your Notion workspace.
+
+II. **Retrieve Notion Database ID**: Open the duplicated template, and copy the string of characters from the URL after `Blog-`. This string is your Notion database ID.
+
+III. **Publish Notion Page**: Ensure that the Notion page containing your blog content is published by clicking on the "Share" button and selecting "Publish."
+
+IV. **Obtain Notion Authentication Token**: While logged into Notion, right-click anywhere on the page, select "Inspect," navigate to the "Application" tab, and find the `token_v2` cookie. Copy its value.
+
+6. Start the development server:
 
 ```
 npm run dev
 ```
-
 Open http://localhost:3000 in your browser to view the website.
+
+7. Build and run for production:
+
+When you're ready to deploy your portfolio:
+```
+npm run build
+npm run start
+```
 
 ## Contributions
 
