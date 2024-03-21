@@ -1,10 +1,9 @@
 import Link from 'next/link';
-
-import NavLink from '@/components/header/nav-link';
 import ThemeToggle from '@/components/theme-toggle';
 
 const NAV_ITEMS = [
-  { path: '/', name: 'Blog' }
+  { path: '/', name: 'Blog' },
+  { path: 'https://gauravgovinda.vercel.app/', name: 'Portfolio' }
 ];
 
 export default function Header() {
@@ -20,7 +19,7 @@ export default function Header() {
               key={item.path}
               className="text-secondary hover:text-primary whitespace-nowrap py-2 text-lg font-medium transition-all duration-300"
             >
-              <NavLink path={item.path}>{item.name}</NavLink>
+              <a href={item.path}>{item.name}</a>
             </li>
           ))}
         </ul>
