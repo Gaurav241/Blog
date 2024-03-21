@@ -83,7 +83,7 @@ Set `SITE_URL` to your production website URL. Ensure it starts with `https://` 
 
 To integrate your Notion content with this blog website, follow these steps:
 
-I. **Duplicate Notion Blog Template**: Find and duplicate the blog template you want to use in your Notion workspace.
+I. **Duplicate Notion Blog Template**: Find and duplicate the blog template you want to use in your Notion workspace. [Notion Blog template](https://slash-makemake-be9.notion.site/Template-of-Blog-3bbf99b142f24883950b655bc32d5892)
 
 II. **Retrieve Notion Database ID**: Open the duplicated template, and copy the string of characters from the URL after `Blog-`. This string is your Notion database ID.
 
