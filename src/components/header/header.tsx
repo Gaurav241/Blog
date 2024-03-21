@@ -2,7 +2,7 @@ import Link from 'next/link';
 import ThemeToggle from '@/components/theme-toggle';
 
 const NAV_ITEMS = [
-  { path: '/', name: 'Blog' },
+  { path: '/', name: 'Home' },
   { path: 'https://gauravgovinda.vercel.app/', name: 'Portfolio' }
 ];
 
