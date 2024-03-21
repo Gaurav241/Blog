@@ -1,5 +1,22 @@
 # Blog Website with Notion Integration
 
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Deployed Website](#deployed-website)
+- [Screenshots](#screenshots)
+    - [UI/UX](#uiux)
+    - [Notion CMS](#notion-cms)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+    - [Prerequisites](#prerequisites)
+    - [Steps](#steps)
+- [Contributions](#contributions)
+- [License](#license)
+
+## Introduction
+
 This repository hosts a Next.js-based blog website with content management capabilities powered by Notion. Leveraging the Notion API, users can seamlessly create and manage blog content within the Notion platform, which is then dynamically fetched and displayed on the website.
 
 ## Deployed Website
